@@ -1,0 +1,6 @@
+name: AutoCraftingVMC
+version: ${project.version}
+main: com.peepersoak.autocraftingvmc.AutoCraftingVMC
+api-version: 1.17
+commands:
+  customrecipe:
