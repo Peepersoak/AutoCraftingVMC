@@ -107,8 +107,4 @@ public class Recipe {
         data.writeString(name + "." + StringPath.RESULT, resultData);
         data.writeList(name + "." + StringPath.RECIPES, recipeData);
     }
-
-    public HashMap<ItemStack, List<ItemStack>> getRecipe() {
-        return recipe;
-    }
 }
